@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center" >
+     <div style="width:30%">
+     <input type="text" id="txtnombre" value="" placeholder="Nombre">
+     </div>
+   </div>
+   <div align="center">
+      <a href="#" class="ui-btn ui-shadow ui-btn-corner-all ui-icon-arrow-r ui-btn-icon-right ui-btn-inline" id="btndatos"> Siguiente </a>
+      </div>
+   </div>
+
+  <div data-role="footer">
+    <h1>@NancyEsmeraldaSorianoNieto</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- page2 -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center" >
+    <div style="width:30%">
+    <input type="number" id="txtpeso" value="" placeholder="Peso">
+    <input type="number" id="txttalla" value="" placeholder="Talla">
+    </div>
+     <a href="#" class="ui-btn ui-shadow ui-btn-corner-all ui-icon-arrow-r ui-btn-icon-right ui-btn-inline" id="btnresultado"> Siguiente </a>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@NancyEsmeraldaSorianoNieto</h1>
+  </div>
+ </div>  
+ <!-- page2 -->
+ 
+ <!-- page3 -->
+ <div data-role="page" id="resultado" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <p align="center">Resultado</p>
+    <p align="center">IMC</p>
+    <div id="imc"  align="center"> 
+    
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@NancyEsmeraldaSorianoNieto</h1>
+  </div>
+ </div>  
+ <!-- page3 -->
+ 
+ </body>
+</html> 
